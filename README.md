@@ -59,6 +59,42 @@ The Students Management System is a web-based application designed to help educa
 - **MySQL or PostgreSQL**
 - **Node.js and npm (for asset compilation)** 
 - **Laravel >= 10.x**
+### Setup Steps
+1. **Clone the repository**
+   - **git clone https://github.com/yourusername/students-management-system.git
+   cd students-management-system**
+2. **Install PHP dependencies**
+   - **composer install**
+3. **Install Node dependencies**
+   - **npm install**
+4. **Create environment file**
+   - **cp .env.example .env**
+5. **Generate application key**
+   - **php artisan key:generate**
+6. **Configure database**
+**Edit the .env file and set your database credentials:**
+
+     **DB_CONNECTION=mysql**<br>
+     **DB_HOST=127.0.0.1**<br>
+     **DB_PORT=3306**<br>
+     **DB_DATABASE=students_db**<br>
+     **DB_USERNAME=your_username**<br>
+     **DB_PASSWORD=your_password**<br>
+7. **Run migrations**
+    - **php artisan migrate**
+8. **Seed the database (optional)**
+    - **php artisan db:seed**
+9. **Compile assets**
+    - **npm run dev**
+10. **Start the development server**
+    - **php artisan serve**
+11. **Access the application**
+Open your browser and navigate to<br>
+**Run your server at `http://localhost:8000`**
+
+
+
+   
 
 
 We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
