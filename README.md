@@ -333,7 +333,7 @@ furnished to do so.
 
 For questions or feedback, please contact:
 - Email: johnvincentmarzan47@gmail.com
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: [@johnvincentmarzan-source]([https://github.com/yourusername](https://github.com/johnvincentmarzan-source/myStudent.git))
 
 ---
 
